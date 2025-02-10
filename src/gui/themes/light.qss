@@ -1,0 +1,234 @@
+/* 主窗口样式 */
+QMainWindow {
+    background-color: #F9F9F9;
+}
+
+/* 工具栏样式 */
+QToolBar {
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #E0E0E0;
+    spacing: 8px;
+    padding: 4px 12px;
+}
+
+QToolBar QToolButton {
+    background-color: transparent;
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+    padding: 4px 12px;
+    color: #333333;
+}
+
+QToolBar QToolButton:hover {
+    background-color: #F0E6FF;
+    border-color: #8B3DFF;
+    color: #8B3DFF;
+}
+
+QToolBar QToolButton:pressed {
+    background-color: #E6D9FF;
+}
+
+QToolBar::separator {
+    width: 1px;
+    background-color: #E0E0E0;
+    margin: 4px 8px;
+}
+
+/* 菜单栏样式 */
+QMenuBar {
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+QMenuBar::item {
+    padding: 8px 12px;
+    background-color: transparent;
+}
+
+QMenuBar::item:selected {
+    background-color: #F0E6FF;
+    color: #8B3DFF;
+}
+
+QMenu {
+    background-color: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    padding: 4px;
+}
+
+QMenu::item {
+    padding: 8px 24px;
+    border-radius: 4px;
+}
+
+QMenu::item:selected {
+    background-color: #F0E6FF;
+    color: #8B3DFF;
+}
+
+/* 项目列表样式 */
+QWidget#ProjectList {
+    background-color: #F0F2F5;
+    border-right: 1px solid #E0E0E0;
+}
+
+QWidget#ProjectList QPushButton#newProjectBtn {
+    background-color: #8B3DFF;  /* Canva紫色 */
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    margin: 12px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+QWidget#ProjectList QPushButton#newProjectBtn:hover {
+    background-color: #7433D9;
+}
+
+QWidget#ProjectList QListWidget {
+    background-color: transparent;
+    border: none;
+    padding: 8px;
+}
+
+QWidget#ProjectList QListWidget::item {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    padding: 12px;
+}
+
+QWidget#ProjectList QListWidget::item:selected {
+    background-color: #F0E6FF;  /* 淡紫色背景 */
+    color: #8B3DFF;
+}
+
+QWidget#ProjectList QListWidget::item:hover {
+    background-color: #F5F5F5;
+}
+
+/* 章节列表样式 */
+QWidget#ChapterList {
+    background-color: #FFFFFF;
+    border-right: 1px solid #E0E0E0;
+}
+
+QWidget#ChapterList QLabel#projectTitle {
+    color: #1D1D1D;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 16px;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+QWidget#ChapterList QPushButton#newChapterBtn {
+    background-color: #8B3DFF;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    margin: 12px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+QWidget#ChapterList QPushButton#newChapterBtn:hover {
+    background-color: #7433D9;
+}
+
+QWidget#ChapterList QListWidget {
+    background-color: transparent;
+    border: none;
+    padding: 8px;
+}
+
+QWidget#ChapterList QListWidget::item {
+    background-color: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    padding: 12px;
+}
+
+QWidget#ChapterList QListWidget::item:selected {
+    background-color: #F0E6FF;
+    color: #8B3DFF;
+    border: 1px solid #8B3DFF;
+}
+
+QWidget#ChapterList QListWidget::item:hover {
+    background-color: #F5F5F5;
+}
+
+/* 编辑器样式 */
+QWidget#Editor {
+    background-color: #FFFFFF;
+}
+
+/* 工具栏样式 */
+QWidget#toolbar {
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #E0E0E0;
+    padding: 12px 20px;
+    margin: 0;
+}
+
+QWidget#toolbar QPushButton {
+    min-width: 80px;
+    margin-right: 12px;
+}
+
+QWidget#toolbar QPushButton#generateBtn,
+QWidget#toolbar QPushButton#continueBtn,
+QWidget#toolbar QPushButton#promptBtn {
+    background-color: #8B3DFF;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+QWidget#toolbar QPushButton#generateBtn:hover,
+QWidget#toolbar QPushButton#continueBtn:hover,
+QWidget#toolbar QPushButton#promptBtn:hover {
+    background-color: #7433D9;
+}
+
+QWidget#toolbar QPushButton#generateBtn:disabled,
+QWidget#toolbar QPushButton#continueBtn:disabled,
+QWidget#toolbar QPushButton#promptBtn:disabled {
+    background-color: #E0E0E0;
+    color: #999999;
+}
+
+QWidget#toolbar QSpinBox {
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+    padding: 4px 8px;
+    min-width: 80px;
+    margin-left: 8px;
+}
+
+QWidget#toolbar QLabel {
+    color: #666666;
+    font-size: 14px;
+    margin-left: 16px;
+}
+
+QWidget#Editor QProgressBar {
+    border: none;
+    background-color: #F0F0F0;
+    border-radius: 4px;
+    height: 4px;
+}
+
+QWidget#Editor QProgressBar::chunk {
+    background-color: #8B3DFF;
+    border-radius: 4px;
+}

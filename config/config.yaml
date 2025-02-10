@@ -1,0 +1,47 @@
+# 应用配置
+app:
+  name: "AI写作助手"
+  version: "1.0.0"
+  debug: true
+
+# 数据库配置
+database:
+  path: "data/writing_assistant.db"
+
+# AI服务配置
+ai_services:
+  # 支持的模型列表
+  supported_models:
+    - name: "DeepSeek"
+      key: "deepseek"
+      api_url: "https://api.siliconflow.cn/v1/chat/completions"
+      models:
+        - "Pro/deepseek-ai/DeepSeek-R1"
+  
+  # 默认设置
+  default:
+    provider: "deepseek"
+    model: "Pro/deepseek-ai/DeepSeek-R1"
+
+# GUI配置
+gui:
+  theme: "light"
+  window:
+    width: 1280
+    height: 800
+    title: "AI写作助手"
+  font:
+    family: "Microsoft YaHei"
+    size: 12
+
+# 导出配置
+export:
+  default_format: "docx"
+  output_dir: "exports"
+
+# 日志配置
+logging:
+  level: "INFO"
+  file: "logs/app.log"
+  max_size: 10485760  # 10MB
+  backup_count: 5

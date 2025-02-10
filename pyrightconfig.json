@@ -1,0 +1,10 @@
+{
+    "venv": "venv",
+    "venvPath": ".",
+    "pythonVersion": "3.10",
+    "pythonPlatform": "Darwin",
+    "extraPaths": ["src"],
+    "typeCheckingMode": "basic",
+    "reportMissingImports": "warning",
+    "reportMissingModuleSource": "warning"
+} 

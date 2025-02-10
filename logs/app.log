@@ -1,0 +1,449 @@
+2025-02-09 01:01:45 | INFO     | utils.logger:setup_logger:52 - 日志系统初始化完成
+2025-02-09 01:27:41 | INFO     | utils.logger:setup_logger:52 - 日志系统初始化完成
+2025-02-09 01:28:09 | INFO     | utils.logger:setup_logger:52 - 日志系统初始化完成
+2025-02-09 01:28:28 | INFO     | utils.logger:setup_logger:52 - 日志系统初始化完成
+2025-02-09 01:28:28 | ERROR    | database.migrations:migrate:102 - 数据库迁移失败: (sqlite3.OperationalError) no such table: settings
+[SQL: 
+                ALTER TABLE settings 
+                ADD COLUMN generation_template TEXT;
+            ]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-02-09 01:28:33 | INFO     | database.operations:create_project:72 - 创建项目成功: <Project(id=1, name='未命名项目')>
+2025-02-09 01:28:34 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:28:36 | INFO     | database.operations:create_chapter:135 - 创建章节成功: <Chapter(id=1, title='第1章', order=0)>
+2025-02-09 01:28:37 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:28:42 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=1, title='第1章', order=0)>
+2025-02-09 01:28:43 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=1, title='第1章', order=0)>
+2025-02-09 01:28:43 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=1, title='第1章', order=0)>
+2025-02-09 01:28:44 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=1, title='第1章', order=0)>
+2025-02-09 01:28:47 | INFO     | database.operations:delete_chapter:185 - 删除章节成功: <Chapter(id=1, title='第1章', order=0)>
+2025-02-09 01:28:49 | INFO     | database.operations:create_chapter:135 - 创建章节成功: <Chapter(id=1, title='第2章', order=0)>
+2025-02-09 01:28:53 | INFO     | database.operations:create_project:72 - 创建项目成功: <Project(id=2, name='未命名项目')>
+2025-02-09 01:28:54 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:28:54 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=1, title='第2章', order=0)>
+2025-02-09 01:28:55 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:28:56 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:28:56 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:28:58 | INFO     | database.operations:update_chapter_order:209 - 更新章节顺序成功: project_id=1
+2025-02-09 01:28:59 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=1, title='第2章', order=1)>
+2025-02-09 01:29:05 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=1, title='第1章', order=1)>
+2025-02-09 01:29:05 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=1, title='第1章', order=1)>
+2025-02-09 01:29:14 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=1, title='第1章', order=1)>
+2025-02-09 01:29:15 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=1, title='第1章', order=1)>
+2025-02-09 01:30:17 | INFO     | utils.logger:setup_logger:52 - 日志系统初始化完成
+2025-02-09 01:30:17 | ERROR    | database.migrations:migrate:102 - 数据库迁移失败: (sqlite3.OperationalError) duplicate column name: generation_template
+[SQL: 
+                ALTER TABLE settings 
+                ADD COLUMN generation_template TEXT;
+            ]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-02-09 01:30:23 | INFO     | database.operations:update_prompt_templates:388 - 更新提示词模板成功
+2025-02-09 01:30:31 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:30:31 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:30:32 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:30:33 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:30:33 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:30:34 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:30:35 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:30:36 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:30:38 | INFO     | database.operations:delete_project:120 - 删除项目成功: <Project(id=1, name='未命名项目')>
+2025-02-09 01:30:41 | INFO     | database.operations:delete_project:120 - 删除项目成功: <Project(id=2, name='未命名项目')>
+2025-02-09 01:31:55 | INFO     | utils.logger:setup_logger:52 - 日志系统初始化完成
+2025-02-09 01:31:55 | INFO     | database.migrations:_migration_v2_up:143 - 提示词模板字段已在模型中定义
+2025-02-09 01:31:55 | INFO     | database.migrations:migrate:99 - 数据库迁移成功: 从版本 1 到 2
+2025-02-09 01:32:01 | INFO     | database.operations:create_project:72 - 创建项目成功: <Project(id=1, name='123')>
+2025-02-09 01:32:28 | INFO     | utils.logger:setup_logger:52 - 日志系统初始化完成
+2025-02-09 01:32:28 | INFO     | database.migrations:_migration_v2_up:144 - 提示词模板字段已在模型中定义
+2025-02-09 01:32:28 | INFO     | database.migrations:migrate:99 - 数据库迁移成功: 从版本 1 到 2
+2025-02-09 01:32:35 | INFO     | database.operations:create_project:72 - 创建项目成功: <Project(id=1, name='123')>
+2025-02-09 01:34:40 | INFO     | utils.logger:setup_logger:52 - 日志系统初始化完成
+2025-02-09 01:34:40 | INFO     | database.migrations:_migration_v2_up:146 - 提示词模板字段已在模型定义中
+2025-02-09 01:34:40 | INFO     | database.migrations:migrate:99 - 数据库迁移成功: 从版本 1 到 2
+2025-02-09 01:34:45 | INFO     | database.operations:create_project:72 - 创建项目成功: <Project(id=1, name='123')>
+2025-02-09 01:34:51 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:35:02 | INFO     | database.operations:create_chapter:135 - 创建章节成功: <Chapter(id=1, title='第1章：无声的序幕', order=0)>
+2025-02-09 01:35:05 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=1, title='第1章：无声的序幕', order=0)>
+2025-02-09 01:35:17 | INFO     | database.operations:create_chapter:135 - 创建章节成功: <Chapter(id=2, title='第2章：有声的帷幕', order=0)>
+2025-02-09 01:35:19 | INFO     | database.operations:update_chapter_order:209 - 更新章节顺序成功: project_id=1
+2025-02-09 01:35:21 | INFO     | database.operations:update_chapter_order:209 - 更新章节顺序成功: project_id=1
+2025-02-09 01:35:23 | INFO     | database.operations:update_chapter_order:209 - 更新章节顺序成功: project_id=1
+2025-02-09 01:35:24 | INFO     | database.operations:update_chapter_order:209 - 更新章节顺序成功: project_id=1
+2025-02-09 01:35:32 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=1, title='第1章：无声的序幕1', order=0)>
+2025-02-09 01:35:32 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=1, title='第1章：无声的序幕1', order=0)>
+2025-02-09 01:35:33 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=2, title='第2章：有声的帷幕', order=1)>
+2025-02-09 01:35:33 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=1, title='第1章：无声的序幕1', order=0)>
+2025-02-09 01:35:34 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=2, title='第2章：有声的帷幕', order=1)>
+2025-02-09 01:35:34 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=1, title='第1章：无声的序幕1', order=0)>
+2025-02-09 01:35:35 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=2, title='第2章：有声的帷幕', order=1)>
+2025-02-09 01:35:36 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=2, title='第2章：有声的帷幕', order=1)>
+2025-02-09 01:35:37 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=1, title='第1章：无声的序幕1', order=0)>
+2025-02-09 01:35:38 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:35:38 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=1, title='第1章：无声的序幕1', order=0)>
+2025-02-09 01:35:40 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:35:42 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=2, title='第2章：有声的帷幕', order=1)>
+2025-02-09 01:35:42 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=1, title='第1章：无声的序幕1', order=0)>
+2025-02-09 01:35:45 | INFO     | database.operations:delete_chapter:185 - 删除章节成功: <Chapter(id=1, title='第1章：无声的序幕1', order=0)>
+2025-02-09 01:35:48 | INFO     | database.operations:delete_chapter:185 - 删除章节成功: <Chapter(id=2, title='第2章：有声的帷幕', order=1)>
+2025-02-09 01:35:53 | INFO     | database.operations:create_project:72 - 创建项目成功: <Project(id=2, name='未命名项目')>
+2025-02-09 01:35:54 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:35:55 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:35:56 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:35:56 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:35:57 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:35:58 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:35:59 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:35:59 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:36:00 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:36:01 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:36:11 | INFO     | database.operations:create_chapter:135 - 创建章节成功: <Chapter(id=1, title='第1章', order=0)>
+2025-02-09 01:36:40 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:36:41 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:36:41 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:36:42 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:36:42 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:36:43 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:36:43 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:36:44 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=1, title='第1章', order=0)>
+2025-02-09 01:36:44 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=1, title='第1章', order=0)>
+2025-02-09 01:39:06 | INFO     | utils.logger:setup_logger:52 - 日志系统初始化完成
+2025-02-09 01:39:06 | INFO     | database.migrations:migrate:99 - 数据库迁移成功: 从版本 2 到 2
+2025-02-09 01:39:11 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:39:11 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:39:12 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:39:12 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:39:13 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:39:13 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:39:17 | INFO     | database.operations:delete_project:120 - 删除项目成功: <Project(id=1, name='123')>
+2025-02-09 01:39:20 | INFO     | database.operations:delete_project:120 - 删除项目成功: <Project(id=2, name='未命名项目')>
+2025-02-09 01:39:36 | INFO     | database.operations:create_project:72 - 创建项目成功: <Project(id=1, name='1234')>
+2025-02-09 01:39:37 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:39:38 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:39:40 | INFO     | database.operations:create_chapter:135 - 创建章节成功: <Chapter(id=1, title='第1章', order=0)>
+2025-02-09 01:39:42 | INFO     | database.operations:create_chapter:135 - 创建章节成功: <Chapter(id=2, title='第2章', order=0)>
+2025-02-09 01:39:45 | INFO     | database.operations:create_project:72 - 创建项目成功: <Project(id=2, name='未命名项目')>
+2025-02-09 01:39:45 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:39:46 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:39:47 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:39:48 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:39:48 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:39:49 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:39:49 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:39:50 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:39:52 | INFO     | database.operations:create_chapter:135 - 创建章节成功: <Chapter(id=3, title='第1章', order=0)>
+2025-02-09 01:39:54 | INFO     | database.operations:create_chapter:135 - 创建章节成功: <Chapter(id=4, title='第2章', order=0)>
+2025-02-09 01:39:54 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=4, title='第2章', order=0)>
+2025-02-09 01:39:55 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=3, title='第1章', order=0)>
+2025-02-09 01:39:55 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=4, title='第2章', order=0)>
+2025-02-09 01:39:56 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=3, title='第1章', order=0)>
+2025-02-09 01:39:56 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=4, title='第2章', order=0)>
+2025-02-09 01:39:58 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:39:58 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=4, title='第2章', order=0)>
+2025-02-09 01:39:59 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=1, title='第1章', order=0)>
+2025-02-09 01:39:59 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=2, title='第2章', order=0)>
+2025-02-09 01:40:01 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:40:01 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=2, title='第2章', order=0)>
+2025-02-09 01:40:01 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:40:03 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:40:05 | INFO     | database.operations:delete_project:120 - 删除项目成功: <Project(id=1, name='1234')>
+2025-02-09 01:40:08 | INFO     | database.operations:delete_project:120 - 删除项目成功: <Project(id=2, name='未命名项目')>
+2025-02-09 01:41:00 | INFO     | utils.logger:setup_logger:52 - 日志系统初始化完成
+2025-02-09 01:41:00 | INFO     | database.migrations:migrate:99 - 数据库迁移成功: 从版本 2 到 2
+2025-02-09 01:41:04 | INFO     | database.operations:create_project:72 - 创建项目成功: <Project(id=1, name='未命名项目')>
+2025-02-09 01:41:08 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:41:18 | INFO     | utils.logger:setup_logger:52 - 日志系统初始化完成
+2025-02-09 01:41:18 | INFO     | database.migrations:migrate:99 - 数据库迁移成功: 从版本 2 到 2
+2025-02-09 01:41:19 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:41:20 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:41:21 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:41:21 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:41:22 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:41:22 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:41:25 | INFO     | database.operations:delete_project:120 - 删除项目成功: <Project(id=1, name='未命名项目')>
+2025-02-09 01:41:33 | INFO     | utils.logger:setup_logger:52 - 日志系统初始化完成
+2025-02-09 01:41:33 | INFO     | database.migrations:migrate:99 - 数据库迁移成功: 从版本 2 到 2
+2025-02-09 01:41:39 | INFO     | database.operations:create_project:72 - 创建项目成功: <Project(id=1, name='23135456')>
+2025-02-09 01:41:42 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:41:44 | INFO     | database.operations:create_chapter:135 - 创建章节成功: <Chapter(id=1, title='第1章', order=0)>
+2025-02-09 01:41:45 | INFO     | database.operations:create_chapter:135 - 创建章节成功: <Chapter(id=2, title='第2章', order=0)>
+2025-02-09 01:41:58 | INFO     | utils.logger:setup_logger:52 - 日志系统初始化完成
+2025-02-09 01:41:59 | INFO     | database.migrations:migrate:99 - 数据库迁移成功: 从版本 2 到 2
+2025-02-09 01:42:00 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:42:00 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:42:01 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:42:01 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:42:02 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:42:02 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:42:02 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:42:02 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:42:03 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:42:03 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:42:03 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:42:03 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:42:04 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:42:04 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:42:09 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:42:09 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:42:10 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:42:10 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:42:12 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:42:20 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 01:42:23 | INFO     | database.operations:delete_project:120 - 删除项目成功: <Project(id=1, name='23135456')>
+2025-02-09 14:02:25 | INFO     | utils.logger:setup_logger:52 - 日志系统初始化完成
+2025-02-09 14:02:25 | INFO     | database.migrations:migrate:99 - 数据库迁移成功: 从版本 2 到 2
+2025-02-09 14:10:22 | INFO     | utils.logger:setup_logger:52 - 日志系统初始化完成
+2025-02-09 14:10:22 | INFO     | database.migrations:migrate:99 - 数据库迁移成功: 从版本 2 到 2
+2025-02-09 14:10:25 | INFO     | database.operations:create_project:72 - 创建项目成功: <Project(id=1, name='未命名项目')>
+2025-02-09 14:10:27 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 14:10:28 | INFO     | database.operations:create_chapter:135 - 创建章节成功: <Chapter(id=1, title='第1章', order=0)>
+2025-02-09 14:10:29 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=1, title='第1章', order=0)>
+2025-02-09 14:10:31 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=1, title='第1章', order=0)>
+2025-02-09 14:10:31 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=1, title='第1章', order=0)>
+2025-02-09 14:10:31 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=1, title='第1章', order=0)>
+2025-02-09 14:10:32 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=1, title='第1章', order=0)>
+2025-02-09 14:10:32 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=1, title='第1章', order=0)>
+2025-02-09 14:10:37 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 14:10:48 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 14:10:50 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 14:10:56 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 14:12:57 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 14:13:03 | INFO     | utils.logger:setup_logger:52 - 日志系统初始化完成
+2025-02-09 14:13:04 | INFO     | database.migrations:migrate:99 - 数据库迁移成功: 从版本 2 到 2
+2025-02-09 14:13:07 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 14:13:08 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 14:13:09 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=1, title='第1章', order=0)>
+2025-02-09 14:13:11 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=1, title='第1章', order=0)>
+2025-02-09 14:13:11 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=1, title='第1章', order=0)>
+2025-02-09 14:13:12 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=1, title='第1章', order=0)>
+2025-02-09 14:13:12 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=1, title='第1章', order=0)>
+2025-02-09 14:13:18 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=1, title='第1章', order=0)>
+2025-02-09 14:13:18 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=1, title='第1章', order=0)>
+2025-02-09 14:13:22 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=1, title='第1章', order=0)>
+2025-02-09 14:13:26 | INFO     | database.operations:create_chapter:135 - 创建章节成功: <Chapter(id=2, title='第2章', order=0)>
+2025-02-09 14:13:26 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=2, title='第2章', order=0)>
+2025-02-09 14:13:27 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=1, title='第1章', order=0)>
+2025-02-09 14:13:30 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=1, title='第1章', order=0)>
+2025-02-09 14:13:45 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 14:14:09 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 14:14:09 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=1, title='第1章', order=0)>
+2025-02-09 14:14:10 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 14:14:10 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 14:14:13 | INFO     | database.operations:delete_project:120 - 删除项目成功: <Project(id=1, name='未命名项目')>
+2025-02-09 14:14:23 | INFO     | utils.logger:setup_logger:52 - 日志系统初始化完成
+2025-02-09 14:14:24 | INFO     | database.migrations:migrate:99 - 数据库迁移成功: 从版本 2 到 2
+2025-02-09 14:16:14 | INFO     | utils.logger:setup_logger:52 - 日志系统初始化完成
+2025-02-09 14:16:14 | INFO     | database.migrations:migrate:99 - 数据库迁移成功: 从版本 2 到 2
+2025-02-09 14:21:06 | INFO     | utils.logger:setup_logger:52 - 日志系统初始化完成
+2025-02-09 14:21:06 | INFO     | database.migrations:migrate:99 - 数据库迁移成功: 从版本 2 到 2
+2025-02-09 14:22:26 | INFO     | utils.logger:setup_logger:52 - 日志系统初始化完成
+2025-02-09 14:22:26 | INFO     | database.migrations:migrate:99 - 数据库迁移成功: 从版本 2 到 2
+2025-02-09 14:24:29 | INFO     | utils.logger:setup_logger:52 - 日志系统初始化完成
+2025-02-09 14:24:29 | INFO     | database.migrations:migrate:99 - 数据库迁移成功: 从版本 2 到 2
+2025-02-09 14:24:39 | INFO     | utils.logger:setup_logger:52 - 日志系统初始化完成
+2025-02-09 14:24:39 | INFO     | database.migrations:migrate:99 - 数据库迁移成功: 从版本 2 到 2
+2025-02-09 14:26:10 | INFO     | utils.logger:setup_logger:52 - 日志系统初始化完成
+2025-02-09 14:26:10 | INFO     | database.migrations:migrate:99 - 数据库迁移成功: 从版本 2 到 2
+2025-02-09 14:26:18 | INFO     | database.operations:create_project:72 - 创建项目成功: <Project(id=1, name='未命名项目')>
+2025-02-09 14:26:19 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 14:26:20 | INFO     | database.operations:create_chapter:135 - 创建章节成功: <Chapter(id=1, title='第1章', order=0)>
+2025-02-09 14:26:21 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=1, title='第1章', order=0)>
+2025-02-09 14:26:24 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 14:26:28 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=1, title='第1章', order=0)>
+2025-02-09 14:28:15 | INFO     | utils.logger:setup_logger:52 - 日志系统初始化完成
+2025-02-09 14:28:15 | INFO     | database.migrations:migrate:99 - 数据库迁移成功: 从版本 2 到 2
+2025-02-09 14:28:24 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 14:29:32 | INFO     | utils.logger:setup_logger:52 - 日志系统初始化完成
+2025-02-09 14:29:32 | INFO     | database.migrations:migrate:99 - 数据库迁移成功: 从版本 2 到 2
+2025-02-09 14:30:15 | ERROR    | ai_services.deepseek:validate_api_key:62 - API请求失败: 402 - {"error":{"message":"Insufficient Balance","type":"unknown_error","param":null,"code":"invalid_request_error"}}
+2025-02-09 14:31:54 | INFO     | utils.logger:setup_logger:52 - 日志系统初始化完成
+2025-02-09 14:31:54 | INFO     | database.migrations:migrate:99 - 数据库迁移成功: 从版本 2 到 2
+2025-02-09 14:31:59 | ERROR    | ai_services.deepseek:validate_api_key:70 - 验证API密钥时发生错误: 'latin-1' codec can't encode characters in position 86-89: ordinal not in range(256)
+2025-02-09 14:32:48 | INFO     | utils.logger:setup_logger:52 - 日志系统初始化完成
+2025-02-09 14:32:48 | INFO     | database.migrations:migrate:99 - 数据库迁移成功: 从版本 2 到 2
+2025-02-09 14:33:03 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 14:33:09 | INFO     | utils.logger:setup_logger:52 - 日志系统初始化完成
+2025-02-09 14:33:09 | INFO     | database.migrations:migrate:99 - 数据库迁移成功: 从版本 2 到 2
+2025-02-09 14:33:11 | ERROR    | ai_services.deepseek:validate_api_key:76 - 验证API密钥时发生错误: 'latin-1' codec can't encode characters in position 83-84: ordinal not in range(256)
+2025-02-09 14:33:51 | ERROR    | ai_services.deepseek:validate_api_key:68 - API余额不足
+2025-02-09 14:33:54 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 14:37:46 | INFO     | utils.logger:setup_logger:52 - 日志系统初始化完成
+2025-02-09 14:37:46 | INFO     | database.migrations:migrate:99 - 数据库迁移成功: 从版本 2 到 2
+2025-02-09 14:37:52 | ERROR    | ai_services.deepseek:validate_api_key:65 - API密钥无效
+2025-02-09 14:42:20 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 14:42:26 | INFO     | utils.logger:setup_logger:52 - 日志系统初始化完成
+2025-02-09 14:42:26 | INFO     | database.migrations:migrate:99 - 数据库迁移成功: 从版本 2 到 2
+2025-02-09 14:42:29 | ERROR    | ai_services.deepseek:validate_api_key:69 - API密钥无效
+2025-02-09 14:44:37 | INFO     | utils.logger:setup_logger:52 - 日志系统初始化完成
+2025-02-09 14:44:38 | INFO     | database.migrations:migrate:99 - 数据库迁移成功: 从版本 2 到 2
+2025-02-09 14:44:40 | ERROR    | ai_services.deepseek:validate_api_key:71 - API密钥无效
+2025-02-09 14:45:04 | ERROR    | ai_services.deepseek:validate_api_key:71 - API密钥无效
+2025-02-09 14:45:06 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 14:47:36 | INFO     | utils.logger:setup_logger:52 - 日志系统初始化完成
+2025-02-09 14:47:37 | INFO     | database.migrations:migrate:99 - 数据库迁移成功: 从版本 2 到 2
+2025-02-09 14:47:40 | ERROR    | ai_services.deepseek:validate_api_key:89 - API密钥无效
+2025-02-09 14:48:44 | INFO     | utils.logger:setup_logger:52 - 日志系统初始化完成
+2025-02-09 14:48:44 | INFO     | database.migrations:migrate:99 - 数据库迁移成功: 从版本 2 到 2
+2025-02-09 14:48:46 | DEBUG    | ai_services.deepseek:validate_api_key:65 - API请求URL: https://api.deepseek.com/v1/chat/completions
+2025-02-09 14:48:46 | DEBUG    | ai_services.deepseek:validate_api_key:66 - 请求头: {'Authorization': 'Bearer sk-qtcsakapwteadmappjettwxytqhpyyhusgdgocowbcrwuvms', 'Content-Type': 'application/json'}
+2025-02-09 14:48:46 | DEBUG    | ai_services.deepseek:validate_api_key:67 - 请求数据: {'model': 'deepseek-chat', 'messages': [{'role': 'user', 'content': '测试连接'}], 'stream': False, 'max_tokens': 512}
+2025-02-09 14:48:46 | DEBUG    | ai_services.deepseek:validate_api_key:79 - 响应状态码: 401
+2025-02-09 14:48:46 | DEBUG    | ai_services.deepseek:validate_api_key:80 - 响应内容: {"error":{"message":"Authentication Fails (no such user)","type":"authentication_error","param":null,"code":"invalid_request_error"}}
+2025-02-09 14:48:46 | ERROR    | ai_services.deepseek:validate_api_key:85 - API密钥无效，响应内容: {"error":{"message":"Authentication Fails (no such user)","type":"authentication_error","param":null,"code":"invalid_request_error"}}
+2025-02-09 14:50:28 | INFO     | utils.logger:setup_logger:52 - 日志系统初始化完成
+2025-02-09 14:50:28 | INFO     | database.migrations:migrate:99 - 数据库迁移成功: 从版本 2 到 2
+2025-02-09 14:50:31 | DEBUG    | ai_services.deepseek:validate_api_key:69 - API请求URL: https://api.deepseek.com/v1/chat/completions
+2025-02-09 14:50:31 | DEBUG    | ai_services.deepseek:validate_api_key:70 - 请求头: {'Authorization': 'Bearer sk-qtcsakapwteadmappjettwxytqhpyyhusgdgocowbcrwuvms', 'Content-Type': 'application/json'}
+2025-02-09 14:50:31 | DEBUG    | ai_services.deepseek:validate_api_key:71 - 请求数据: {'model': 'deepseek-chat', 'messages': [{'role': 'user', 'content': '测试连接'}], 'stream': False, 'max_tokens': 10, 'temperature': 0.7, 'top_p': 0.7, 'top_k': 50, 'frequency_penalty': 0.5, 'n': 1}
+2025-02-09 14:50:31 | DEBUG    | ai_services.deepseek:validate_api_key:83 - 响应状态码: 401
+2025-02-09 14:50:31 | DEBUG    | ai_services.deepseek:validate_api_key:84 - 响应内容: {"error":{"message":"Authentication Fails (no such user)","type":"authentication_error","param":null,"code":"invalid_request_error"}}
+2025-02-09 14:50:31 | ERROR    | ai_services.deepseek:validate_api_key:96 - API密钥无效: Authentication Fails (no such user)
+2025-02-09 14:51:44 | INFO     | utils.logger:setup_logger:52 - 日志系统初始化完成
+2025-02-09 14:51:44 | INFO     | database.migrations:migrate:99 - 数据库迁移成功: 从版本 2 到 2
+2025-02-09 14:51:47 | DEBUG    | ai_services.deepseek:validate_api_key:69 - API请求URL: https://api.deepseek.com/v1/chat/completions
+2025-02-09 14:51:47 | DEBUG    | ai_services.deepseek:validate_api_key:70 - 请求头: {'Authorization': 'Bearer sk-qtcsakapwteadmappjettwxytqhpyyhusgdgocowbcrwuvms', 'Content-Type': 'application/json', 'Accept': 'application/json'}
+2025-02-09 14:51:47 | DEBUG    | ai_services.deepseek:validate_api_key:71 - 请求数据: {'model': 'deepseek-chat', 'messages': [{'role': 'user', 'content': '测试连接'}], 'stream': False, 'max_tokens': 10, 'temperature': 0.7, 'top_p': 0.7, 'frequency_penalty': 0}
+2025-02-09 14:51:47 | DEBUG    | ai_services.deepseek:validate_api_key:82 - 响应状态码: 401
+2025-02-09 14:51:47 | DEBUG    | ai_services.deepseek:validate_api_key:83 - 响应内容: {"error":{"message":"Authentication Fails (no such user)","type":"authentication_error","param":null,"code":"invalid_request_error"}}
+2025-02-09 14:51:47 | ERROR    | ai_services.deepseek:validate_api_key:96 - API密钥无效: Authentication Fails (no such user)
+2025-02-09 14:53:26 | DEBUG    | ai_services.deepseek:validate_api_key:69 - API请求URL: https://api.deepseek.com/v1/chat/completions
+2025-02-09 14:53:26 | DEBUG    | ai_services.deepseek:validate_api_key:70 - 请求头: {'Authorization': 'Bearer sk-fcvhsyrbvymkfbcouigqtfkohsswyymqpaqqiagzzraftdfi', 'Content-Type': 'application/json', 'Accept': 'application/json'}
+2025-02-09 14:53:26 | DEBUG    | ai_services.deepseek:validate_api_key:71 - 请求数据: {'model': 'deepseek-chat', 'messages': [{'role': 'user', 'content': '测试连接'}], 'stream': False, 'max_tokens': 10, 'temperature': 0.7, 'top_p': 0.7, 'frequency_penalty': 0}
+2025-02-09 14:53:27 | DEBUG    | ai_services.deepseek:validate_api_key:82 - 响应状态码: 401
+2025-02-09 14:53:27 | DEBUG    | ai_services.deepseek:validate_api_key:83 - 响应内容: {"error":{"message":"Authentication Fails (no such user)","type":"authentication_error","param":null,"code":"invalid_request_error"}}
+2025-02-09 14:53:27 | ERROR    | ai_services.deepseek:validate_api_key:96 - API密钥无效: Authentication Fails (no such user)
+2025-02-09 15:01:11 | INFO     | utils.logger:setup_logger:52 - 日志系统初始化完成
+2025-02-09 15:01:11 | INFO     | database.migrations:migrate:99 - 数据库迁移成功: 从版本 2 到 2
+2025-02-09 15:01:13 | DEBUG    | ai_services.deepseek:validate_api_key:68 - API请求URL: https://api.deepseek.com/v1/chat/completions
+2025-02-09 15:01:13 | DEBUG    | ai_services.deepseek:validate_api_key:69 - 请求头: {'Authorization': 'Bearer sk-qtcsakapwteadmappjettwxytqhpyyhusgdgocowbcrwuvms', 'Content-Type': 'application/json', 'Accept': 'application/json'}
+2025-02-09 15:01:13 | DEBUG    | ai_services.deepseek:validate_api_key:70 - 请求数据: {'model': 'deepseek-chat', 'messages': [{'role': 'user', 'content': '测试连接'}], 'stream': False, 'max_tokens': 10, 'temperature': 0.7, 'top_p': 0.7}
+2025-02-09 15:01:14 | DEBUG    | ai_services.deepseek:validate_api_key:81 - 响应状态码: 401
+2025-02-09 15:01:14 | DEBUG    | ai_services.deepseek:validate_api_key:82 - 响应内容: {"error":{"message":"Authentication Fails (no such user)","type":"authentication_error","param":null,"code":"invalid_request_error"}}
+2025-02-09 15:01:14 | ERROR    | ai_services.deepseek:validate_api_key:95 - API密钥无效: Authentication Fails (no such user)
+2025-02-09 15:03:53 | INFO     | utils.logger:setup_logger:52 - 日志系统初始化完成
+2025-02-09 15:03:53 | INFO     | database.migrations:migrate:99 - 数据库迁移成功: 从版本 2 到 2
+2025-02-09 15:03:56 | DEBUG    | ai_services.deepseek:validate_api_key:69 - API请求URL: https://api.deepseek.com/v1/chat/completions
+2025-02-09 15:03:56 | DEBUG    | ai_services.deepseek:validate_api_key:70 - 请求头: {'Authorization': 'Bearer sk-qtcsakapwteadmappjettwxytqhpyyhusgdgocowbcrwuvms', 'Content-Type': 'application/json'}
+2025-02-09 15:03:56 | DEBUG    | ai_services.deepseek:validate_api_key:71 - 请求数据: {'model': 'deepseek-chat', 'messages': [{'role': 'user', 'content': '测试连接'}], 'stream': False, 'max_tokens': 10, 'temperature': 0.7, 'top_p': 0.7, 'top_k': 50, 'frequency_penalty': 0}
+2025-02-09 15:03:56 | DEBUG    | ai_services.deepseek:validate_api_key:82 - 响应状态码: 401
+2025-02-09 15:03:56 | DEBUG    | ai_services.deepseek:validate_api_key:83 - 响应内容: {"error":{"message":"Authentication Fails (no such user)","type":"authentication_error","param":null,"code":"invalid_request_error"}}
+2025-02-09 15:03:56 | ERROR    | ai_services.deepseek:validate_api_key:95 - API密钥无效: Authentication Fails (no such user)
+2025-02-09 15:27:17 | INFO     | utils.logger:setup_logger:52 - 日志系统初始化完成
+2025-02-09 15:27:17 | INFO     | database.migrations:migrate:99 - 数据库迁移成功: 从版本 2 到 2
+2025-02-09 15:27:20 | DEBUG    | ai_services.deepseek:validate_api_key:63 - API请求URL: https://api.deepseek.com/v1/chat/completions
+2025-02-09 15:27:20 | DEBUG    | ai_services.deepseek:validate_api_key:64 - 请求头: {'Authorization': 'Bearer sk-qtcsakapwteadmappjettwxytqhpyyhusgdgocowbcrwuvms', 'Content-Type': 'application/json'}
+2025-02-09 15:27:20 | DEBUG    | ai_services.deepseek:validate_api_key:65 - 请求数据: {'messages': [{'content': '测试连接', 'role': 'user'}], 'model': 'deepseek-chat'}
+2025-02-09 15:27:21 | DEBUG    | ai_services.deepseek:validate_api_key:76 - 响应状态码: 401
+2025-02-09 15:27:21 | DEBUG    | ai_services.deepseek:validate_api_key:77 - 响应内容: {"error":{"message":"Authentication Fails (no such user)","type":"authentication_error","param":null,"code":"invalid_request_error"}}
+2025-02-09 15:27:21 | ERROR    | ai_services.deepseek:validate_api_key:89 - API密钥无效: Authentication Fails (no such user)
+2025-02-09 15:28:41 | INFO     | utils.logger:setup_logger:52 - 日志系统初始化完成
+2025-02-09 15:28:41 | INFO     | database.migrations:migrate:99 - 数据库迁移成功: 从版本 2 到 2
+2025-02-09 15:28:43 | DEBUG    | ai_services.deepseek:validate_api_key:66 - API请求URL: https://api.deepseek.com/chat/completions
+2025-02-09 15:28:43 | DEBUG    | ai_services.deepseek:validate_api_key:67 - 请求头: {'Authorization': 'Bearer sk-qtcsakapwteadmappjettwxytqhpyyhusgdgocowbcrwuvms', 'Content-Type': 'application/json'}
+2025-02-09 15:28:43 | DEBUG    | ai_services.deepseek:validate_api_key:68 - 请求数据: {'messages': [{'content': '测试连接', 'role': 'user'}], 'model': 'deepseek-chat'}
+2025-02-09 15:28:44 | DEBUG    | ai_services.deepseek:validate_api_key:79 - 响应状态码: 401
+2025-02-09 15:28:44 | DEBUG    | ai_services.deepseek:validate_api_key:80 - 响应内容: {"error":{"message":"Authentication Fails (no such user)","type":"authentication_error","param":null,"code":"invalid_request_error"}}
+2025-02-09 15:28:44 | ERROR    | ai_services.deepseek:validate_api_key:92 - API密钥无效: Authentication Fails (no such user)
+2025-02-09 15:33:21 | INFO     | utils.logger:setup_logger:52 - 日志系统初始化完成
+2025-02-09 15:33:21 | INFO     | database.migrations:migrate:99 - 数据库迁移成功: 从版本 2 到 2
+2025-02-09 15:35:38 | INFO     | utils.logger:setup_logger:52 - 日志系统初始化完成
+2025-02-09 15:35:39 | INFO     | database.migrations:migrate:99 - 数据库迁移成功: 从版本 2 到 2
+2025-02-09 15:40:33 | INFO     | utils.logger:setup_logger:52 - 日志系统初始化完成
+2025-02-09 15:40:33 | INFO     | database.migrations:migrate:99 - 数据库迁移成功: 从版本 2 到 2
+2025-02-09 15:40:35 | DEBUG    | ai_services.deepseek:validate_api_key:63 - API请求URL: https://api.siliconflow.cn/v1/chat/completions
+2025-02-09 15:40:35 | DEBUG    | ai_services.deepseek:validate_api_key:64 - 请求头: {'Authorization': 'Bearer sk-qtcsakapwteadmappjettwxytqhpyyhusgdgocowbcrwuvms', 'Content-Type': 'application/json'}
+2025-02-09 15:40:35 | DEBUG    | ai_services.deepseek:validate_api_key:65 - 请求数据: {'messages': [{'content': '测试连接', 'role': 'user'}], 'model': 'Pro/deepseek-ai/DeepSeek-R1'}
+2025-02-09 15:40:46 | ERROR    | ai_services.deepseek:validate_api_key:99 - API请求异常: HTTPSConnectionPool(host='api.siliconflow.cn', port=443): Read timed out. (read timeout=10)
+2025-02-09 15:42:31 | INFO     | utils.logger:setup_logger:52 - 日志系统初始化完成
+2025-02-09 15:42:31 | INFO     | database.migrations:migrate:99 - 数据库迁移成功: 从版本 2 到 2
+2025-02-09 15:42:33 | DEBUG    | ai_services.deepseek:validate_api_key:63 - API请求URL: https://api.siliconflow.cn/v1/chat/completions
+2025-02-09 15:42:33 | DEBUG    | ai_services.deepseek:validate_api_key:64 - 请求头: {'Authorization': 'Bearer sk-qtcsakapwteadmappjettwxytqhpyyhusgdgocowbcrwuvms', 'Content-Type': 'application/json'}
+2025-02-09 15:42:33 | DEBUG    | ai_services.deepseek:validate_api_key:65 - 请求数据: {'messages': [{'content': '测试连接', 'role': 'user'}], 'model': 'Pro/deepseek-ai/DeepSeek-R1'}
+2025-02-09 15:42:45 | ERROR    | ai_services.deepseek:validate_api_key:99 - API请求异常: HTTPSConnectionPool(host='api.siliconflow.cn', port=443): Read timed out. (read timeout=10)
+2025-02-09 15:46:25 | INFO     | utils.logger:setup_logger:52 - 日志系统初始化完成
+2025-02-09 15:46:25 | INFO     | database.migrations:migrate:99 - 数据库迁移成功: 从版本 2 到 2
+2025-02-09 15:46:28 | DEBUG    | ai_services.deepseek:validate_api_key:63 - API请求URL: https://api.siliconflow.cn/v1/chat/completions
+2025-02-09 15:46:28 | DEBUG    | ai_services.deepseek:validate_api_key:64 - 请求头: {'Authorization': 'Bearer sk-qtcsakapwteadmappjettwxytqhpyyhusgdgocowbcrwuvms', 'Content-Type': 'application/json'}
+2025-02-09 15:46:28 | DEBUG    | ai_services.deepseek:validate_api_key:65 - 请求数据: {'messages': [{'content': '测试连接', 'role': 'user'}], 'model': 'Pro/deepseek-ai/DeepSeek-R1'}
+2025-02-09 15:46:58 | ERROR    | ai_services.deepseek:validate_api_key:99 - API请求超时，请检查网络连接或稍后重试
+2025-02-09 15:52:01 | DEBUG    | ai_services.deepseek:validate_api_key:63 - API请求URL: https://api.siliconflow.cn/v1/chat/completions
+2025-02-09 15:52:01 | DEBUG    | ai_services.deepseek:validate_api_key:64 - 请求头: {'Authorization': 'Bearer sk-qtcsakapwteadmappjettwxytqhpyyhusgdgocowbcrwuvms', 'Content-Type': 'application/json'}
+2025-02-09 15:52:01 | DEBUG    | ai_services.deepseek:validate_api_key:65 - 请求数据: {'messages': [{'content': '测试连接', 'role': 'user'}], 'model': 'Pro/deepseek-ai/DeepSeek-R1'}
+2025-02-09 15:52:22 | DEBUG    | ai_services.deepseek:validate_api_key:76 - 响应状态码: 200
+2025-02-09 15:52:22 | DEBUG    | ai_services.deepseek:validate_api_key:77 - 响应内容: {"id":"0194e9b1aa51fcd2580d8b711afc7ad3","object":"chat.completion","created":1739087522,"model":"Pro/deepseek-ai/DeepSeek-R1","choices":[{"index":0,"message":{"role":"assistant","content":"您当前的连接状态正常，网络通信畅通。以下是简要检测结果：\n\n1. **延迟测试**：平均响应时间 \u003c50ms  \n2. **基础服务**：DNS解析、ICMP（ping）请求均成功  \n3. **端口检测**：标准HTTP/HTTPS端口（80/443）可访问  \n4. **数据传输**：加密握手协议（TLS 1.2+/SSL）通过  \n\n如需特定服务测试（如数据库/API），请提供协议类型或端口号，我将进一步验证。","reasoning_content":"好的，现在用户想测试一下连接是否正常。这里显示“测试连接”，可能是他们刚配置完某个网络服务或者应用，需要确认连接是否畅通。我之前回复了“正常”，确认连接没问题，但可能用户需要更多的信息。\n\n先想想常见的连接问题可能有哪些。比如服务器是否在线、网络有没有防火墙阻挡、端口是否正确、认证信息是否有误等等。但既然我之前回了“正常”，说明初步检查没问题，但用户可能需要更明确的反馈，比如延迟、速度或者具体成功的数据。\n\n然后，用户可能需要详细的步骤如何测试连接，比如使用ping、telnet或者curl等工具。或者他们想知道连接的具体参数是否正确，比如IP地址、端口号、协议类型。也有可能是在使用特定的应用或服务，比如数据库、API，这时候需要针对性的测试方法。\n\n用户可能没有明确说明是哪种类型的连接，所以我需要询问更多细节，但既然这是在测试阶段，可能他们希望得到确认，而不需要进一步操作。之前的回答太简短了，用户可能需要扩展的信息来确信连接确实正常，比如统计数据、响应时间、传输的数据样本等。\n\n另外，考虑用户的技术水平。如果他们是普通用户，可能需要用更简单的语言解释连接正常；如果是技术人员，可能需要详细的结果。根据之前的互动还不清楚，所以保持中立，提供更多信息但不过于技术化。\n\n可能的回复方向：确认连接成功，提及使用的测试方法（如HTTP状态码、ping结果），建议后续步骤，或者询问是否需要进一步检查。这样可以覆盖用户的不同需求，既确认情况，又提供帮助选项。"},"finish_reason":"stop"}],"usage":{"prompt_tokens":7,"completion_tokens":433,"total_tokens":440},"system_fingerprint":""}
+2025-02-09 15:52:32 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 15:52:35 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 15:52:36 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=1, title='第1章', order=0)>
+2025-02-09 15:52:40 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=1, title='第1章', order=0)>
+2025-02-09 15:52:40 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=1, title='第1章', order=0)>
+2025-02-09 15:53:35 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=1, title='第1章', order=0)>
+2025-02-09 15:53:35 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=1, title='第1章', order=0)>
+2025-02-09 15:53:42 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 15:54:19 | DEBUG    | ai_services.deepseek:validate_api_key:63 - API请求URL: https://api.siliconflow.cn/v1/chat/completions
+2025-02-09 15:54:19 | DEBUG    | ai_services.deepseek:validate_api_key:64 - 请求头: {'Authorization': 'Bearer sk-qtcsakapwteadmappjettwxytqhpyyhusgdgocowbcrwuvms', 'Content-Type': 'application/json'}
+2025-02-09 15:54:19 | DEBUG    | ai_services.deepseek:validate_api_key:65 - 请求数据: {'messages': [{'content': '测试连接', 'role': 'user'}], 'model': 'Pro/deepseek-ai/DeepSeek-R1'}
+2025-02-09 15:54:49 | ERROR    | ai_services.deepseek:validate_api_key:99 - API请求超时，请检查网络连接或稍后重试
+2025-02-09 15:54:53 | DEBUG    | ai_services.deepseek:validate_api_key:63 - API请求URL: https://api.siliconflow.cn/v1/chat/completions
+2025-02-09 15:54:53 | DEBUG    | ai_services.deepseek:validate_api_key:64 - 请求头: {'Authorization': 'Bearer sk-qtcsakapwteadmappjettwxytqhpyyhusgdgocowbcrwuvms', 'Content-Type': 'application/json'}
+2025-02-09 15:54:53 | DEBUG    | ai_services.deepseek:validate_api_key:65 - 请求数据: {'messages': [{'content': '测试连接', 'role': 'user'}], 'model': 'Pro/deepseek-ai/DeepSeek-R1'}
+2025-02-09 15:55:23 | ERROR    | ai_services.deepseek:validate_api_key:99 - API请求超时，请检查网络连接或稍后重试
+2025-02-09 16:01:38 | INFO     | utils.logger:setup_logger:52 - 日志系统初始化完成
+2025-02-09 16:01:38 | INFO     | database.migrations:migrate:99 - 数据库迁移成功: 从版本 2 到 2
+2025-02-09 16:01:51 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 16:01:53 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=1, title='第1章', order=0)>
+2025-02-09 16:01:55 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=1, title='第1章', order=0)>
+2025-02-09 16:01:55 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=1, title='第1章', order=0)>
+2025-02-09 16:01:55 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=1, title='第1章', order=0)>
+2025-02-09 16:04:00 | INFO     | utils.logger:setup_logger:52 - 日志系统初始化完成
+2025-02-09 16:04:00 | INFO     | database.migrations:migrate:99 - 数据库迁移成功: 从版本 2 到 2
+2025-02-09 16:04:49 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 16:04:50 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=1, title='第1章', order=0)>
+2025-02-09 16:06:42 | INFO     | utils.logger:setup_logger:52 - 日志系统初始化完成
+2025-02-09 16:06:42 | INFO     | database.migrations:migrate:99 - 数据库迁移成功: 从版本 2 到 2
+2025-02-09 16:06:44 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 16:06:44 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=1, title='第1章', order=0)>
+2025-02-09 16:06:58 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=1, title='第1章', order=0)>
+2025-02-09 16:06:58 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=1, title='第1章', order=0)>
+2025-02-09 16:08:35 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=1, title='第1章', order=0)>
+2025-02-09 16:08:35 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=1, title='第1章', order=0)>
+2025-02-09 16:08:40 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=1, title='第1章', order=0)>
+2025-02-09 16:10:16 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 16:11:04 | ERROR    | ai_services.deepseek:generate_content:167 - 生成内容时发生错误: HTTPSConnectionPool(host='api.siliconflow.cn', port=443): Read timed out. (read timeout=30)
+2025-02-09 16:12:29 | ERROR    | ai_services.deepseek:generate_content:167 - 生成内容时发生错误: HTTPSConnectionPool(host='api.siliconflow.cn', port=443): Read timed out. (read timeout=30)
+2025-02-09 16:15:34 | INFO     | utils.logger:setup_logger:52 - 日志系统初始化完成
+2025-02-09 16:15:35 | INFO     | database.migrations:migrate:99 - 数据库迁移成功: 从版本 2 到 2
+2025-02-09 16:15:36 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 16:15:37 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=1, title='第1章', order=0)>
+2025-02-09 16:16:46 | WARNING  | ai_services.deepseek:_make_request:87 - 请求超时，准备第1次重试
+2025-02-09 16:17:25 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=1, title='第1章', order=0)>
+2025-02-09 16:17:25 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=1, title='第1章', order=0)>
+2025-02-09 16:17:34 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=1, title='第1章', order=0)>
+2025-02-09 16:17:34 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=1, title='第1章', order=0)>
+2025-02-09 16:18:25 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=1, title='第1章', order=0)>
+2025-02-09 16:23:06 | INFO     | database.operations:create_chapter:135 - 创建章节成功: <Chapter(id=2, title='第2章', order=0)>
+2025-02-09 16:23:07 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=2, title='第2章', order=0)>
+2025-02-09 16:23:08 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=1, title='第1章', order=0)>
+2025-02-09 16:23:10 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=2, title='第2章', order=0)>
+2025-02-09 16:23:12 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=1, title='第1章', order=0)>
+2025-02-09 16:23:39 | INFO     | utils.logger:setup_logger:52 - 日志系统初始化完成
+2025-02-09 16:23:40 | INFO     | database.migrations:_migration_v3_up:189 - AI对话历史表创建成功
+2025-02-09 16:23:40 | INFO     | database.migrations:migrate:99 - 数据库迁移成功: 从版本 2 到 3
+2025-02-09 16:23:41 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-09 16:23:42 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=1, title='第1章', order=0)>
+2025-02-09 16:23:42 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=2, title='第2章', order=0)>
+2025-02-09 16:23:43 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=1, title='第1章', order=0)>
+2025-02-09 16:23:43 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=2, title='第2章', order=0)>
+2025-02-09 16:23:43 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=1, title='第1章', order=0)>
+2025-02-09 16:23:44 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=2, title='第2章', order=0)>
+2025-02-10 10:56:01 | INFO     | utils.logger:setup_logger:52 - 日志系统初始化完成
+2025-02-10 10:56:01 | INFO     | database.migrations:migrate:99 - 数据库迁移成功: 从版本 3 到 3
+2025-02-10 11:06:04 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-10 11:06:04 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=1, title='第1章', order=0)>
+2025-02-10 11:06:05 | INFO     | database.operations:update_chapter_order:209 - 更新章节顺序成功: project_id=1
+2025-02-10 11:06:07 | INFO     | database.operations:create_project:72 - 创建项目成功: <Project(id=2, name='未命名项目')>
+2025-02-10 11:06:08 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-10 11:06:08 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=1, title='第1章', order=1)>
+2025-02-10 11:06:10 | INFO     | database.operations:create_chapter:135 - 创建章节成功: <Chapter(id=3, title='第1章', order=0)>
+2025-02-10 11:06:11 | INFO     | database.operations:create_chapter:135 - 创建章节成功: <Chapter(id=4, title='第2章', order=0)>
+2025-02-10 11:06:17 | INFO     | database.operations:update_chapter_order:209 - 更新章节顺序成功: project_id=2
+2025-02-10 11:26:42 | INFO     | database.operations:update_chapter:170 - 更新章节成功: <Chapter(id=3, title='第1章', order=1)>
+2025-02-10 14:35:39 | INFO     | database.operations:update_settings:234 - 更新设置成功
+2025-02-10 14:35:46 | ERROR    | ai_services.deepseek:validate_api_key:125 - 验证API密钥时发生错误: API请求异常: 'str' object has no attribute 'get'
